@@ -1,5 +1,5 @@
-20.0 //adjustAngleOneSideCutRev
-50.0 //adjustAngleRate
+21.0 //adjustAngleOneSideCutRev
+52.0 //adjustAngleRate
 5.0 //adjustCorrectDist
 0 //adjustDistDelay
 0 //adjustDistOneSideCutRev
@@ -31,6 +31,6 @@
 8.0 //limitDistX_MfLine
 70.0 //mfLimitRate
 5.0 //minCoverDist
-0.000 //UNKNOWN_33
-0.000 //UNKNOWN_34
-0.000 //UNKNOWN_35
+0 //UNKNOWN_33
+0 //UNKNOWN_34
+0 //UNKNOWN_35
