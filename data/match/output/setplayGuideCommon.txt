@@ -1,8 +1,8 @@
 0 //freekickDebug
-4 //goalKickBackSpin
+4.0 //goalKickBackSpin
 1 //goalKickMode
-200 //thinkDistFar
-50 //thinkDistMiddle
-25 //thinkDistNear
-0.000 //UNKNOWN_6
-0.000 //UNKNOWN_7
+200.0 //thinkDistFar
+50.0 //thinkDistMiddle
+25.0 //thinkDistNear
+0 //UNKNOWN_6
+0 //UNKNOWN_7

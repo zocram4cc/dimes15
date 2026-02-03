@@ -2,43 +2,43 @@
 0.0 //HEX 0x20000000, contains rot, addBackSpin, rot, addHigh, rot, adjustDist, NULL
 96 //addValue
 0.0 //HEX 0xa0000000, contains rot, adjustDist, distMax, rot, adjustDist, distMin, NULL
-0.0 //HEX 0x05000000, contains rot, adjustDist, enable, rot, base, rot, NULL
-50 //topSpinRot
-0.0 //HEX 0x1e000000, contains speed, addGage, addParaRate, speed, addGage, base, speed, NULL
+0.0 //HEX 0x0000a040, contains rot, adjustDist, enable, rot, base, rot, NULL
+50.0 //topSpinRot
+0.0 //HEX 0x0000f041, contains speed, addGage, addParaRate, speed, addGage, base, speed, NULL
 0 //base
-0.0 //HEX 0x02000000, contains speed, kickPowerParameter, debugParameter, speed, kickPowerParameter, max, speed, NULL
-5 //kickPowerParameter
+0.0 //HEX 0x00000040, contains speed, kickPowerParameter, debugParameter, speed, kickPowerParameter, max, speed, NULL
+5.0 //kickPowerParameter
 16 //min
-0.0 //HEX 0x0e000000, contains speed, kickPowerParameter, mode, spin, backSpin, base, spin, NULL
-8 //backSpin
+0.0 //HEX 0x00006041, contains speed, kickPowerParameter, mode, spin, backSpin, base, spin, NULL
+8.0 //backSpin
 0 //paraRate
 0.0 //HEX 0x00000000, contains spin, sideSpin, base, spin, sideSpin, paraRate, spin, sideSpin, reverse, spin, NULL
 0 //topSpin
-10 //base
-0.0 //HEX 0x19000000, contains spin, topSpin, paraRate, NULL
-0.000 //UNKNOWN_18
-0.000 //UNKNOWN_19
-nan //UNKNOWN_20
-0.000 //UNKNOWN_21
-0.000 //UNKNOWN_22
-0.000 //UNKNOWN_23
-0.000 //UNKNOWN_24
-0.000 //UNKNOWN_25
-0.000 //UNKNOWN_26
-0.000 //UNKNOWN_27
-0.000 //UNKNOWN_28
-0.000 //UNKNOWN_29
-0.000 //UNKNOWN_30
-0.000 //UNKNOWN_31
-0.000 //UNKNOWN_32
-0.000 //UNKNOWN_33
-0.000 //UNKNOWN_34
-0.000 //UNKNOWN_35
-0.600 //UNKNOWN_36
-0.200 //UNKNOWN_37
-0.000 //UNKNOWN_38
-0.000 //UNKNOWN_39
-0.000 //UNKNOWN_40
-0.000 //UNKNOWN_41
-0.000 //UNKNOWN_42
-0.000 //UNKNOWN_43
+10.0 //base
+0.0 //HEX 0x0000c841, contains spin, topSpin, paraRate, NULL
+0 //UNKNOWN_18
+0 //UNKNOWN_19
+-1 //UNKNOWN_20
+99.0 //UNKNOWN_21
+40.0 //UNKNOWN_22
+1 //UNKNOWN_23
+64 //UNKNOWN_24
+70.0 //UNKNOWN_25
+80 //UNKNOWN_26
+0 //UNKNOWN_27
+3.0 //UNKNOWN_28
+0 //UNKNOWN_29
+0 //UNKNOWN_30
+0 //UNKNOWN_31
+5.0 //UNKNOWN_32
+2.0 //UNKNOWN_33
+4.0 //UNKNOWN_34
+0 //UNKNOWN_35
+0.6 //UNKNOWN_36
+0.2 //UNKNOWN_37
+0 //UNKNOWN_38
+0 //UNKNOWN_39
+112 //UNKNOWN_40
+128 //UNKNOWN_41
+144 //UNKNOWN_42
+0 //UNKNOWN_43

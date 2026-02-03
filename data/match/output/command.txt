@@ -2,11 +2,11 @@
 1 //dribble
 0 //burstR1PullDelete
 0 //enable
--1 //burstR1PullDelete
+-1.0 //burstR1PullDelete
 0 //trap
 0 //kickAngleChangeOfferNowAnimeKick
 0 //kickAngleChangeOfferTimer
 0 //kickCommandCreateButtonPull
 0 //shootKickAngleChangeOfferTimer
-0.000 //UNKNOWN_10
-0.000 //UNKNOWN_11
+0 //UNKNOWN_10
+0 //UNKNOWN_11

@@ -4,5 +4,5 @@
 1.5 //saftyRate_FarDist
 0.2 //saftyRate_NearDist
 1.75 //tackleThinkDisableToTrap
-0.000 //UNKNOWN_6
-0.000 //UNKNOWN_7
+0 //UNKNOWN_6
+0 //UNKNOWN_7

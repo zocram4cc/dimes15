@@ -9,4 +9,4 @@
 220 //symptomDamageLaceration
 240 //symptomDamageLigament
 230 //symptomDamageTearMuscle
-0.000 //UNKNOWN_11
+0 //UNKNOWN_11

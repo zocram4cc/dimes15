@@ -22,16 +22,16 @@
 0.0 //HEX 0x9a99193f, contains offence, kickDebug, NULL
 1 //shootKind
 0.0 //HEX 0x00000000, contains offence, kickDebug, NULL
-1 //startSpeedLevel
-0.0 //HEX 0x01000000, contains offence, kickMode, NULL
+1.0 //startSpeedLevel
+0.0 //HEX 0x0000803f, contains offence, kickMode, NULL
 0.0 //HEX 0x0000003f, contains offence, kickPointBall, NULL
-0.0 //HEX 0x02000000, contains offence, kickPointBall, NULL
+0.0 //HEX 0x00000040, contains offence, kickPointBall, NULL
 0.0 //HEX 0x01000000, contains offence, kickPointDirect, NULL
 0.0 //HEX 0x00000000, contains offence, kickPointDirect, NULL
 0.0 //HEX 0x06000000, contains offence, kickPointGoal, NULL
 0.0 //HEX 0x00000000, contains offence, kickPointGoal, NULL
-0.0 //HEX 0x01000000, contains offence, kickPosition, NULL
-6 //angle
+0.0 //HEX 0x0000803f, contains offence, kickPosition, NULL
+6.0 //angle
 0.0 //HEX 0x00000000, contains offence, kickPosition, NULL
 0 //dist
 0.0 //HEX 0x9a99993f, contains offence, kickPosition, NULL
@@ -43,18 +43,18 @@
 0.0 //HEX 0x00000000, contains offence, kickRotMode, NULL
 0.0 //HEX 0x00000000, contains retry, auto, retry, NULL
 0 //setid
-0.000 //UNKNOWN_45
-0.000 //UNKNOWN_46
-0.000 //UNKNOWN_47
-0.000 //UNKNOWN_48
-0.000 //UNKNOWN_49
-0.000 //UNKNOWN_50
-0.000 //UNKNOWN_51
-0.000 //UNKNOWN_52
-0.000 //UNKNOWN_53
-0.000 //UNKNOWN_54
-0.000 //UNKNOWN_55
-0.000 //UNKNOWN_56
-nan //UNKNOWN_57
-0.000 //UNKNOWN_58
-0.000 //UNKNOWN_59
+30.0 //UNKNOWN_45
+257 //UNKNOWN_46
+100.0 //UNKNOWN_47
+80 //UNKNOWN_48
+96 //UNKNOWN_49
+1 //UNKNOWN_50
+128 //UNKNOWN_51
+144 //UNKNOWN_52
+160 //UNKNOWN_53
+176 //UNKNOWN_54
+0 //UNKNOWN_55
+0 //UNKNOWN_56
+-1 //UNKNOWN_57
+0 //UNKNOWN_58
+0 //UNKNOWN_59

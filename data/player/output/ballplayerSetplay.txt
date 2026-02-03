@@ -2,15 +2,15 @@
 48 //range_middle
 0.0 //HEX 0x0000003f, contains FreekickShoot, range_short, FreekickShoot, range_width, Throwin, NULL
 0 //range_long
-0.0 //HEX 0x0c000000, contains Throwin, range_min, Throwin, NULL
-40 //range_short
-30 //waitTimerMin
-0.000 //UNKNOWN_7
-0.000 //UNKNOWN_8
-0.000 //UNKNOWN_9
-0.000 //UNKNOWN_10
-0.000 //UNKNOWN_11
-0.000 //UNKNOWN_12
-0.000 //UNKNOWN_13
-0.000 //UNKNOWN_14
-0.000 //UNKNOWN_15
+0.0 //HEX 0x00004041, contains Throwin, range_min, Throwin, NULL
+40.0 //range_short
+30.0 //waitTimerMin
+23.0 //UNKNOWN_7
+50.0 //UNKNOWN_8
+0 //UNKNOWN_9
+0 //UNKNOWN_10
+0 //UNKNOWN_11
+35.0 //UNKNOWN_12
+2.0 //UNKNOWN_13
+25.0 //UNKNOWN_14
+0 //UNKNOWN_15

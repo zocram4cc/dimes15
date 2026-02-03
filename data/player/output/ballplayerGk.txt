@@ -2,23 +2,23 @@
 0.0 //HEX 0x20000000, contains ClearInfo, forceKickTime, NULL
 0.0 //HEX 0x40000000, contains LongPassInfo, forceEnemyDist, LongPassInfo, forceKickTime, LongPassInfo, NULL
 0 //limitLineFromPenaltyLine
-0.0 //HEX 0x05000000, contains LongPassInfo, rangeFar, LongPassInfo, rangeNear, ShortPassInfo, NULL
-3 //courseCheckWidth
+0.0 //HEX 0x0000a040, contains LongPassInfo, rangeFar, LongPassInfo, rangeNear, ShortPassInfo, NULL
+3.0 //courseCheckWidth
 0.0 //HEX 0x00000000, contains ShortPassInfo, passAngleSubMax, ShortPassInfo, passDistMax, ShortPassInfo, rangeFar, NULL
 0.0 //HEX 0x00000000, contains ShortPassInfo, rangeNear, ShortPassInfo, targetFreeDist, limitLineFromPenaltyLine, NULL
-0.000 //UNKNOWN_8
-0.000 //UNKNOWN_9
-0.000 //UNKNOWN_10
-0.000 //UNKNOWN_11
-0.000 //UNKNOWN_12
-0.000 //UNKNOWN_13
-0.000 //UNKNOWN_14
-0.000 //UNKNOWN_15
-0.000 //UNKNOWN_16
-0.000 //UNKNOWN_17
-0.000 //UNKNOWN_18
-0.000 //UNKNOWN_19
-0.000 //UNKNOWN_20
-0.000 //UNKNOWN_21
-0.000 //UNKNOWN_22
-0.000 //UNKNOWN_23
+15.0 //UNKNOWN_8
+3.0 //UNKNOWN_9
+0 //UNKNOWN_10
+60.0 //UNKNOWN_11
+35.0 //UNKNOWN_12
+0 //UNKNOWN_13
+0 //UNKNOWN_14
+0 //UNKNOWN_15
+40.0 //UNKNOWN_16
+80.0 //UNKNOWN_17
+30.0 //UNKNOWN_18
+35.0 //UNKNOWN_19
+6.0 //UNKNOWN_20
+10.0 //UNKNOWN_21
+0 //UNKNOWN_22
+0 //UNKNOWN_23

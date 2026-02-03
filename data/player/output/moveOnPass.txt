@@ -1,8 +1,8 @@
-37 //adjustWaitFrame
+37.0 //adjustWaitFrame
 50 //baseWaitFrame
 30 //continueFrame
-15 //distMax
-5 //distMin
-0.000 //UNKNOWN_5
-0.000 //UNKNOWN_6
-0.000 //UNKNOWN_7
+15.0 //distMax
+5.0 //distMin
+0 //UNKNOWN_5
+0 //UNKNOWN_6
+0 //UNKNOWN_7
