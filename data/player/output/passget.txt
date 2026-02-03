@@ -1,0 +1,16 @@
+0.0 //HEX 0x20000000, contains autoFrontMove, enable, autoFrontMove, moveKind, autoFrontMove, pressure, circleDist, NULL
+0.0 //HEX 0x30000000, contains autoFrontMove, pressure, mode, autoFrontMove, pressure, secDiff, autoFrontMove, NULL
+0 //pressure
+0 //thinkDelay
+0.0 //HEX 0x09000000, contains autoFrontMove, slowMoveEnable, defence, paraMax, defence, paraMin, defence, NULL
+0 //secMax
+0.1 //defence
+1 //secMin
+0.000 //UNKNOWN_8
+0.000 //UNKNOWN_9
+0.000 //UNKNOWN_10
+0.000 //UNKNOWN_11
+0.000 //UNKNOWN_12
+0.000 //UNKNOWN_13
+0.400 //UNKNOWN_14
+0.400 //UNKNOWN_15

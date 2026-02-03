@@ -1,0 +1,72 @@
+32 //BallGard
+64 //dummy
+144 //BreakThrough
+0.0 //HEX 0xa0000000, contains DashCheckSecotor, angle, NULL
+192 //BreakThrough
+0.0 //HEX 0xe0000000, contains DashCheckSecotor, dist, NULL
+272 //BreakThrough
+0 //distDecideAngle
+0 //BreakThrough
+0 //distThikStart
+0 //BreakThrough
+0 //enemySearchAngle
+0.0 //HEX 0x28000000, contains MatchUp, Burst, angleSubMax, MatchUp, Burst, enemyFanWidth, MatchUp, Burst, enemyFutureFrame, MatchUp, Burst, startDist, MatchUp, OneTwo, NULL
+10 //courseCheckWidth
+0.0 //HEX 0x00000000, contains MatchUp, OneTwo, distTargetToEnemy, MatchUp, OneTwo, passTimingDist, MatchUp, OneTwo, rangeFar, MatchUp, OneTwo, rangeNear, MatchUp, Slide, NULL
+0 //keepDistMax
+0.0 //HEX 0x30000000, contains MatchUp, Slide, keepDistMin, MatchUp, Slide, startDist, MatchUp, distThikStart, Nomal, distDecideAngle, Nomal, distLeaveEnemy, Nomal, enemySearchAngle, NULL
+0.0 //HEX 0x05000000, contains Nomal, frameLeaveEnemy, Nomal, rateLeaveEnemy, QuickTurn, NULL
+40 //dummy
+0.0 //HEX 0x78000000, contains Safety, GearDownCheckSecotor, angle, Safety, GearDownCheckSecotor, dist, Safety, GearDownCheckSecotor, frame, Safety, NULL
+60 //distDecideAngle
+0.0 //HEX 0x5a000000, contains Safety, distLeaveEnemy, Safety, enemyCheckDistMax, Safety, enemyCheckDistMin, Safety, enemySearchAngle, Safety, frameLeaveEnemy, NULL
+0.0 //HEX 0x14000000, contains Safety, gearDownMoveAngleSub, Safety, rateLeaveEnemy, Stop, dummy, NULL
+0.000 //UNKNOWN_23
+0.000 //UNKNOWN_24
+0.000 //UNKNOWN_25
+2.500 //UNKNOWN_26
+0.000 //UNKNOWN_27
+0.000 //UNKNOWN_28
+0.000 //UNKNOWN_29
+0.000 //UNKNOWN_30
+0.000 //UNKNOWN_31
+0.000 //UNKNOWN_32
+0.000 //UNKNOWN_33
+0.000 //UNKNOWN_34
+0.000 //UNKNOWN_35
+0.000 //UNKNOWN_36
+0.000 //UNKNOWN_37
+0.000 //UNKNOWN_38
+0.000 //UNKNOWN_39
+0.000 //UNKNOWN_40
+0.000 //UNKNOWN_41
+0.000 //UNKNOWN_42
+0.000 //UNKNOWN_43
+0.500 //UNKNOWN_44
+0.000 //UNKNOWN_45
+0.000 //UNKNOWN_46
+0.000 //UNKNOWN_47
+0.000 //UNKNOWN_48
+0.000 //UNKNOWN_49
+0.000 //UNKNOWN_50
+0.000 //UNKNOWN_51
+0.000 //UNKNOWN_52
+0.000 //UNKNOWN_53
+0.000 //UNKNOWN_54
+0.000 //UNKNOWN_55
+0.000 //UNKNOWN_56
+0.000 //UNKNOWN_57
+0.000 //UNKNOWN_58
+0.000 //UNKNOWN_59
+0.000 //UNKNOWN_60
+0.000 //UNKNOWN_61
+0.000 //UNKNOWN_62
+0.000 //UNKNOWN_63
+0.000 //UNKNOWN_64
+0.000 //UNKNOWN_65
+0.000 //UNKNOWN_66
+0.000 //UNKNOWN_67
+0.000 //UNKNOWN_68
+0.000 //UNKNOWN_69
+0.000 //UNKNOWN_70
+0.000 //UNKNOWN_71

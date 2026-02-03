@@ -1,0 +1,4 @@
+4.5 //centeringCurveAdjustMax
+4 //centeringCurveBase
+93 //centeringMaxSpeedHigh
+89 //centeringMaxSpeedLow

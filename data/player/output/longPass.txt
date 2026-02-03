@@ -1,0 +1,16 @@
+60 //highDistMax
+5 //highDistMin
+9 //highHeightMax
+2 //highHeightMin
+-2 //highRoll
+1.2 //highY
+40 //lowBoundDist
+0.9 //lowBoundRate
+60 //lowDistMax
+5 //lowDistMin
+5 //lowHeightMax
+1.5 //lowHeightMin
+-2.4 //lowRoll
+0.3 //lowY
+0.000 //UNKNOWN_14
+0.000 //UNKNOWN_15

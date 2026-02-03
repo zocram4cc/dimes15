@@ -1,0 +1,8 @@
+0.4 //check_SaftyRate_Delay
+0.5 //check_SaftyRate_Last_Line
+0.4 //check_SaftyRate_No_Cover
+1.5 //saftyRate_FarDist
+0.2 //saftyRate_NearDist
+1.75 //tackleThinkDisableToTrap
+0.000 //UNKNOWN_6
+0.000 //UNKNOWN_7

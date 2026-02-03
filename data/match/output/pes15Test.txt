@@ -1,0 +1,316 @@
+48 //controlShootGageMax
+80 //controlShootGageMid
+112 //controlShootGageMin
+144 //normalShootGageMax
+176 //normalShootGageMid
+208 //normalShootGageMin
+1 //pad
+496 //project1vs1
+624 //burstTest
+1216 //project1vs1
+1248 //decelerateThreshold
+0 //project1vs1
+80 //delayAreaAutoStep
+80 //project1vs1
+82 //dribbleAngleLimitDash
+84 //project1vs1
+90 //dribbleAngleLimitRunToDash
+98 //project1vs1
+0 //dribbleAngleLimitStopToDash
+0 //project1vs1
+62 //dribbleDashGotoKickDist
+64 //project1vs1
+72 //dribbleDashKickDist
+77 //project1vs1
+84 //dribbleFrontNormalKickDist
+90 //project1vs1
+0 //dribbleFrontNormalTouchEnable
+0 //project1vs1
+45 //dribbleFrontNormalTouchRate
+45 //project1vs1
+60 //dribbleGotoAddFrame
+73 //project1vs1
+78 //dribbleGotoKickDist
+82 //project1vs1
+0 //dribbleNormalKickDist
+0 //project1vs1
+95 //dribbleStopDist
+100 //project1vs1
+105 //dribbleStopSpeed
+115 //project1vs1
+0.0 //HEX 0x78000000, contains enable, project1vs1, NULL
+120 //freeMoveStopDist
+0 //project1vs1
+0 //jostle
+70 //move
+70 //cancelQuickly
+80 //project1vs1
+95 //jostle
+115 //move
+115 //joinDisable
+0 //project1vs1
+0 //jostle
+56 //move
+56 //settleAlways
+68 //project1vs1
+82 //loseNoDodgeFlag
+84 //project1vs1
+90 //lostBallAfterStopTime
+0 //project1vs1
+0 //pressCheckStepMoveDistance
+0 //project1vs1
+0.0 //HEX 0x00000000, contains pressUpdateTimer, ballAngleSub, project1vs1, pressUpdateTimer, distFuzzyEnable, project1vs1, pressUpdateTimer, distMax, NULL
+0 //project1vs1
+0.0 //HEX 0x00000000, contains pressUpdateTimer, distMin, project1vs1, pressUpdateTimer, hitFrameRate, project1vs1, pressUpdateTimer, pressAngleSub, NULL
+240 //project1vs1
+0.0 //HEX 0x00000000, contains pressUpdateTimer, rateKind, project1vs1, pressUpdateTimer, timerMax, project1vs1, slowDribble, enable, NULL
+0 //project1vs1
+0 //slowDribble
+25 //jogEnable
+1 //project1vs1
+9 //slowDribble
+2 //stickKeepTime
+-1 //project1vs1
+40 //slowDribble
+1 //stickRate
+0.1 //project1vs1
+256 //stepMoveFront
+0 //distAdjust
+0.9 //ballSpeedKphMax
+0 //project1vs1
+40 //stepMoveFront
+20 //distAdjust
+1 //ballSpeedKphMin
+3 //project1vs1
+320 //stepMoveFront
+10 //distAdjust
+0.0 //HEX 0x00000000, contains enable, project1vs1, NULL
+0 //stepMoveFront
+3 //distAdjust
+22.5 //value
+22.5 //project1vs1
+1 //stepMoveFront
+12 //distBase
+4 //project1vs1
+6 //stepMoveFront
+8 //mode
+1.2 //project1vs1
+0.9 //stepMoveSpeed
+105 //project1vs1
+80 //tackle
+0 //animeAccelLimitSpeed
+1 //project1vs1
+257 //tackle
+2 //animeAdjustLimitAngleIdle
+0 //project1vs1
+0.5 //tackle
+1 //animeAdjustLimitAngleMove
+2 //project1vs1
+0 //tackle
+0 //animeBallVisibleCheck
+0 //project1vs1
+0 //tackle
+0 //animeEnterSpeed
+10 //project1vs1
+3 //tackle
+40 //animeFarCutFrame
+12 //project1vs1
+6 //tackle
+0.18 //animeMidCutFrame
+1 //project1vs1
+0.3 //tackle
+0 //animeNearCutFrame
+0 //project1vs1
+0 //tackle
+0 //animePlaybackSpeedHighest
+0.2 //project1vs1
+1 //tackle
+45 //animePlaybackSpeedLowest
+180 //project1vs1
+180 //tackle
+1.3 //animePressTackleEnableAngleIdle
+1.15 //project1vs1
+1 //tackle
+0 //animePressTackleEnableAngleMove
+1 //project1vs1
+0 //tackle
+1.5 //animeShoulderCutFrame
+1.05 //project1vs1
+50 //tackle
+100 //animeShoulderSlideLimit
+1 //project1vs1
+0 //tackle
+256 //animeStepMoveAutoTackleFarEnable
+1 //project1vs1
+0 //tackle
+2 //animeStepMoveAutoTackleVeryfarEnable
+272 //project1vs1
+304 //tackle
+336 //animeVeryfarCutFrame
+0 //project1vs1
+352 //tackle
+1 //autoSideStepEnable
+448 //project1vs1
+0 //tackle
+0 //failAfterStopTime
+0 //project1vs1
+0 //tackle
+0 //forecastHitRate
+0 //project1vs1
+0 //tackle
+2 //freeMoveTackleMode
+0 //project1vs1
+0 //tackle
+1 //manualSideStepEnable
+10 //project1vs1
+-5 //tackle
+0 //reactionStartFrame
+0 //project1vs1
+2 //trapLoss
+10 //project1vs1
+0.0 //HEX 0x28000000, contains waitTimer, ballAngleSub, project1vs1, waitTimer, distMax, project1vs1, waitTimer, distMin, project1vs1, waitTimer, NULL
+5 //pressAngleSub
+257 //project1vs1
+0.0 //HEX 0x00000000, contains waitTimer, pressDistMax, project1vs1, waitTimer, pressDistMin, project1vs1, waitTimer, pressTimerMax, project1vs1, waitTimer, NULL
+0 //rateKind
+0 //project1vs1
+0.0 //HEX 0x14000000, contains waitTimer, timerMax, projectKeeper, useCatchLieAlways, projectKick, cross, adjustAngle, projectKick, cross, adjustAngleHigh, NULL
+0.0 //HEX 0x05000000, contains projectKick, cross, adjustGageFarZ, projectKick, cross, adjustGageNearZ, projectKick, NULL
+0 //cross
+0 //adjustSpeed
+0.0 //HEX 0x3c000000, contains projectKick, cross, adjustSpeedGrounder, projectKick, cross, adjustSpeedHigh, projectKick, NULL
+60 //cross
+10 //adjustStickAngleTest
+0.0 //HEX 0x0a000000, contains projectKick, cross, debugDisp, projectKick, cross, debugDisp_searchBasePoint, projectKick, NULL
+5 //cross
+8.5 //gageTest
+0.0 //HEX 0x03000000, contains projectKick, cross, limitBackX, projectKick, cross, limitFrontX, projectKick, NULL
+4 //cross
+60 //searchMaxDist
+0.0 //HEX 0x0a000000, contains projectKick, cross, searchMinDist, projectKick, cross, searchTest, projectKick, NULL
+0.3 //cross
+0 //stickTest
+0.0 //HEX 0x0000003f, contains projectKick, fly, adjustAngleXZBStick, attackSideAdjustAngleXZMax, projectKick, fly, adjustAngleXZBStick, NULL
+0.6 //defenceSideAdjustAngleXZMax
+0.0 //HEX 0xcdcccc3e, contains projectKick, fly, gageManualTest, projectKick, fly, height, distMax, NULL
+0.0 //HEX 0x0000003f, contains projectKick, fly, height, distMax_high, projectKick, fly, height, NULL
+0.3 //distMin
+0.0 //HEX 0xcdcccc3e, contains projectKick, fly, height, distMin_high, projectKick, fly, height, NULL
+0 //heightForDistMax
+0.0 //HEX 0x00000000, contains projectKick, fly, height, heightForDistMax_high, projectKick, fly, height, NULL
+0.5 //heightForDistMin
+0.0 //HEX 0x00000000, contains projectKick, fly, height, heightForDistMin_high, projectKick, fly, manual, NULL
+1 //distForGageMax
+0.0 //HEX 0x3c000000, contains projectKick, fly, manual, distForGageMin, projectKick, fly, manual, NULL
+10 //interpolateRate
+0.0 //HEX 0x00000000, contains projectKick, fly, manualBlend, manualRateGageMaxParaMax, projectKick, fly, manualBlend, NULL
+0 //manualRateGageMaxParaMin
+0.0 //HEX 0x00000000, contains projectKick, fly, manualBlend, manualRateGageStrongParaMax, projectKick, fly, manualBlend, NULL
+704 //manualRateGageStrongParaMin
+0.0 //HEX 0x01000000, contains projectKick, fly, manualBlend, manualRateGageWeakParaMax, projectKick, fly, manualBlend, NULL
+720 //manualRateGageWeakParaMin
+0.0 //HEX 0xf0020000, contains projectKick, fly, search, angleRate, projectKick, fly, search, NULL
+768 //debugDisp_searchBasePoint
+0.0 //HEX 0x20030000, contains projectKick, fly, search, distRate, projectKick, fly, search, NULL
+0 //searchMaxDist
+0.0 //HEX 0x00000000, contains projectKick, fly, search, searchMinDist, projectKick, gageDisp, projectKick, NULL
+0.3 //gageSpeed
+0.3 //cross
+0.0 //HEX 0x0000803e, contains projectKick, gageSpeed, longPass, projectKick, gageSpeed, shoot, projectKick, NULL
+0.3 //gageSpeed
+0.3 //shortPass
+0.0 //HEX 0x00000000, contains projectKick, gageSpeed, throughPass, projectKick, grounder, angleY, angleForDistMax, NULL
+0.0 //HEX 0x00000000, contains projectKick, grounder, angleY, angleForDistMin, projectKick, grounder, angleY, NULL
+0 //distMax
+0.0 //HEX 0x07000000, contains projectKick, grounder, angleY, distMin, projectKick, grounder, gageManualTest, NULL
+0.0 //HEX 0x00000000, contains projectKick, grounder, manual, distForGageMax, projectKick, grounder, manual, NULL
+40 //distForGageMin
+0.0 //HEX 0x0c000000, contains projectKick, grounder, manualBlend, manualRateGageStrongParaMax, projectKick, grounder, manualBlend, NULL
+40 //manualRateGageStrongParaMin
+0.0 //HEX 0x00001040, contains projectKick, grounder, manualBlend, manualRateGageWeakParaMax, projectKick, grounder, manualBlend, NULL
+0 //manualRateGageWeakParaMin
+0.0 //HEX 0x00000000, contains projectKick, grounder, search, angleRate, projectKick, grounder, search, NULL
+0.7 //debugDisp_searchBasePoint
+0.0 //HEX 0xcdcc4c3f, contains projectKick, grounder, search, distRate, projectKick, grounder, search, NULL
+0.2 //searchMaxDist
+0.0 //HEX 0x9a99993e, contains projectKick, grounder, search, searchMinDist, projectKick, shoot, advanceLoop, NULL
+0.4 //distMax
+0.0 //HEX 0x00000000, contains projectKick, shoot, advanceLoop, distMin, projectKick, shoot, advanceLoop, NULL
+1 //heightMaxForGageMax
+0.0 //HEX 0x28000000, contains projectKick, shoot, advanceLoop, heightMaxForGageMin, projectKick, shoot, advanceLoop, NULL
+2.25 //heightMinForGageMax
+0.0 //HEX 0x00000000, contains projectKick, shoot, advanceLoop, heightMinForGageMin, projectKick, shoot, control_dy, NULL
+0 //gageMax
+0.0 //HEX 0x00000000, contains projectKick, shoot, control_dy, gageMin, projectKick, shoot, control_dy, NULL
+896 //interpolateRate
+0.0 //HEX 0x01000000, contains projectKick, shoot, loop, angleY, projectKick, shoot, loop, NULL
+912 //manualRate
+0.0 //HEX 0xa0030000, contains projectKick, shoot, loop, speedForGageMax, projectKick, shoot, loop, NULL
+944 //speedForGageMin
+0.0 //HEX 0x00000000, contains projectKick, shoot, normal_dy, gageMax, projectKick, shoot, normal_dy, NULL
+0 //gageMin
+0.0 //HEX 0x00000000, contains projectKick, shoot, normal_dy, interpolateRate, projectKick, through, adjustFrameTime, NULL
+0.0 //HEX 0x32000000, contains projectKick, through, adjustFrameTimeBase, projectKick, through, adjustPassGetSpeed, projectKick, NULL
+5 //through
+10 //adjustPassGetSpeedFly
+0.0 //HEX 0x06000000, contains projectKick, through, basePassGetSpeed, projectKick, through, basePassGetSpeedFly, projectKick, NULL
+2 //through
+1.2 //debugDisp
+0.0 //HEX 0x00000000, contains projectKick, through, debugDisp_searchBasePoint, projectKick, through, gageAdjustMaxSpeedFlyMinus, projectKick, NULL
+0 //through
+25.5 //gageAdjustMaxSpeedFlyPlus
+0.0 //HEX 0x03000000, contains projectKick, through, gageAdjustMaxSpeedMinus, projectKick, through, gageAdjustMaxSpeedPlus, projectKick, NULL
+0.4 //through
+0 //gageAdjustSpeedIntercept
+0.0 //HEX 0x1c000000, contains projectKick, through, gageAdjustSpeedInterceptBase, projectKick, through, gageTest1, projectKick, NULL
+0.8 //through
+80 //gageTest2
+0.0 //HEX 0x28000000, contains projectKick, through, gageTest3, projectKick, through, gageTest4, projectKick, NULL
+27.5 //through
+3 //minFlyDistFromTarget
+0.0 //HEX 0xcdcccc3e, contains projectKick, through, passGetSpeedTest, projectKick, through, searchLengthMax, projectKick, NULL
+0 //through
+1008 //searchLengthMax_fly
+0.0 //HEX 0x10040000, contains projectKick, through, searchLengthMin, projectKick, through, searchMaxDist, projectKick, NULL
+1056 //through
+1072 //searchMaxDistFly
+0.0 //HEX 0xcdcc4c3e, contains projectKick, through, searchMinDist, projectKick, through, searchMinDistFly, projectKick, NULL
+0 //through
+25 //searchTest
+0.0 //HEX 0x23000000, contains projectKick, through, stickTest1, projectKick, through, stickTest2, projectKick, NULL
+35 //through
+45 //stickTest3
+0.0 //HEX 0x00000000, contains projectKick, through, stickTest4, projectKick, through, stickTest5, projectThrowin, NULL
+3 //dist
+3 //projectThrowin
+3 //touchLineDist
+3 //stopConcept
+0.000 //UNKNOWN_287
+0.000 //UNKNOWN_288
+0.000 //UNKNOWN_289
+0.000 //UNKNOWN_290
+0.000 //UNKNOWN_291
+0.000 //UNKNOWN_292
+0.000 //UNKNOWN_293
+0.000 //UNKNOWN_294
+0.000 //UNKNOWN_295
+0.000 //UNKNOWN_296
+0.000 //UNKNOWN_297
+0.000 //UNKNOWN_298
+0.000 //UNKNOWN_299
+0.000 //UNKNOWN_300
+0.000 //UNKNOWN_301
+0.000 //UNKNOWN_302
+0.000 //UNKNOWN_303
+0.000 //UNKNOWN_304
+0.000 //UNKNOWN_305
+0.000 //UNKNOWN_306
+0.000 //UNKNOWN_307
+0.000 //UNKNOWN_308
+0.000 //UNKNOWN_309
+0.000 //UNKNOWN_310
+0.000 //UNKNOWN_311
+0.000 //UNKNOWN_312
+0.000 //UNKNOWN_313
+0.000 //UNKNOWN_314
+0.000 //UNKNOWN_315

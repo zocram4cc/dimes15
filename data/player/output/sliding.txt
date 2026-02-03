@@ -1,0 +1,8 @@
+0.0 //HEX 0x04000000, contains animeAccelLimitSpeed, animeAdjustLimitAngle, animeEnterSpeed, animePlaybackSpeedHighest, animePlaybackSpeedLowest, NULL
+0.750 //UNKNOWN_1
+0.000 //UNKNOWN_2
+1.200 //UNKNOWN_3
+0.900 //UNKNOWN_4
+0.000 //UNKNOWN_5
+0.000 //UNKNOWN_6
+0.000 //UNKNOWN_7

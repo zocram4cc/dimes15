@@ -1,0 +1,16 @@
+0.8 //basePosRateClassicalGk
+1.2 //basePosRateOffensiveGk
+0 //checkFreeRangeGKLongThrow
+9 //checkFreeRangeGKNormalThrow
+10 //checkFreeRangeLowPantKick
+50 //lowPantKickRangeMax
+30 //lowPantKickRangeMin
+40 //throwRangeLongMax
+35 //throwRangeLongMin
+30 //throwRangeNormalMax
+5 //throwRangeNormalMin
+20 //waitTimeAddMax
+4 //waitTimeAddMin
+0.000 //UNKNOWN_13
+0.000 //UNKNOWN_14
+0.000 //UNKNOWN_15
