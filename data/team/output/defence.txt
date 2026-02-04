@@ -1,4 +1,4 @@
-10.0 //adjustDribbleWaitTimer
+8.0 //adjustDribbleWaitTimer
 11.0 //adjustSandDist
 5.0 //continueAdvantageDelay
 3.0 //continueAdvantagePress
@@ -26,8 +26,8 @@
 6.0 //matchUpLimitDistDefensiveAwareness0
 9.0 //matchUpLimitDistDefensiveAwareness1
 10.0 //matchUpMfXLimit
-3.0 //matchUpMustContinueDist
-11 //matchUpStartLine
+3.6 //matchUpMustContinueDist
+15 //matchUpStartLine
 28.0 //matchUpStartLineMax
 5.0 //matchUpZLimit
 1.0 //maxSandDist

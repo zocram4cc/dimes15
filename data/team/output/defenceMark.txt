@@ -43,7 +43,7 @@
 4.0 //gapDist
 5.0 //keepDistForGap
 7.0 //markContinueAddDistDF
-1.0 //markContinueDist
+16.0 //markContinueDist
 20.0 //markContinueDist_BoxToBox
 5 //mfZZoneRange
 90.0 //needMarkAngleBase
