@@ -12,5 +12,7 @@
 80.0 //checkSideAngleEyesOff_lineBreaker
 3 //searchCount
 5 //searchCount_lineBreaker
-0 //UNKNOWN_14
-0 //UNKNOWN_15
+
+// --- SHADOW ARRAY INSTANCE 1 ---
+0 //checkAreaScore
+0 //checkAreaScore_lineBreaker

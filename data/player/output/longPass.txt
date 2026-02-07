@@ -12,5 +12,7 @@
 1.5 //lowHeightMin
 -2.4 //lowRoll
 0.3 //lowY
-0 //UNKNOWN_14
-0 //UNKNOWN_15
+
+// --- SHADOW ARRAY INSTANCE 1 ---
+0 //highDistMax
+0 //highDistMin

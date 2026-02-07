@@ -11,46 +11,54 @@
 90.0 //restartPosNo
 3.0 //restartPosTable
 200.0 //restartPosTable
-10.0 //UNKNOWN_13
-90.0 //UNKNOWN_14
-3.0 //UNKNOWN_15
-340.0 //UNKNOWN_16
-10.0 //UNKNOWN_17
-90.0 //UNKNOWN_18
-3.0 //UNKNOWN_19
-270.0 //UNKNOWN_20
-25.0 //UNKNOWN_21
-90.0 //UNKNOWN_22
-3.0 //UNKNOWN_23
-200.0 //UNKNOWN_24
-25.0 //UNKNOWN_25
-90.0 //UNKNOWN_26
-3.0 //UNKNOWN_27
-340.0 //UNKNOWN_28
-25.0 //UNKNOWN_29
-90.0 //UNKNOWN_30
-3.0 //UNKNOWN_31
-270.0 //UNKNOWN_32
-5.0 //UNKNOWN_33
-270.0 //UNKNOWN_34
-3.0 //UNKNOWN_35
-240.0 //UNKNOWN_36
-5.0 //UNKNOWN_37
-270.0 //UNKNOWN_38
-3.0 //UNKNOWN_39
-300.0 //UNKNOWN_40
-5.0 //UNKNOWN_41
-270.0 //UNKNOWN_42
-3.0 //UNKNOWN_43
-20.0 //UNKNOWN_44
-0 //UNKNOWN_45
-20.0 //UNKNOWN_46
-20.0 //UNKNOWN_47
-20.0 //UNKNOWN_48
--20.0 //UNKNOWN_49
-35.0 //UNKNOWN_50
-0 //UNKNOWN_51
-35.0 //UNKNOWN_52
-20.0 //UNKNOWN_53
-35.0 //UNKNOWN_54
--20.0 //UNKNOWN_55
+
+// --- SHADOW ARRAY INSTANCE 1 ---
+10.0 //gk_entry
+90.0 //playerPosNo
+3.0 //playerPosTable
+340.0 //enemyAngle
+10.0 //playerPosTable
+90.0 //enemyDist
+3.0 //playerPosTable
+270.0 //kickerAngle
+25.0 //playerPosTable
+90.0 //kickerDist
+3.0 //restartPosNo
+200.0 //restartPosTable
+25.0 //restartPosTable
+
+// --- SHADOW ARRAY INSTANCE 2 ---
+90.0 //gk_entry
+3.0 //playerPosNo
+340.0 //playerPosTable
+25.0 //enemyAngle
+90.0 //playerPosTable
+3.0 //enemyDist
+270.0 //playerPosTable
+5.0 //kickerAngle
+270.0 //playerPosTable
+3.0 //kickerDist
+240.0 //restartPosNo
+5.0 //restartPosTable
+270.0 //restartPosTable
+
+// --- SHADOW ARRAY INSTANCE 3 ---
+3.0 //gk_entry
+300.0 //playerPosNo
+5.0 //playerPosTable
+270.0 //enemyAngle
+3.0 //playerPosTable
+20.0 //enemyDist
+0 //playerPosTable
+20.0 //kickerAngle
+20.0 //playerPosTable
+20.0 //kickerDist
+-20.0 //restartPosNo
+35.0 //restartPosTable
+0 //restartPosTable
+
+// --- SHADOW ARRAY INSTANCE 4 ---
+35.0 //gk_entry
+20.0 //playerPosNo
+35.0 //playerPosTable
+-20.0 //enemyAngle

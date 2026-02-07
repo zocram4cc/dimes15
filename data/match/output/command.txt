@@ -8,5 +8,7 @@
 0 //kickAngleChangeOfferTimer
 0 //kickCommandCreateButtonPull
 0 //shootKickAngleChangeOfferTimer
-0 //UNKNOWN_10
-0 //UNKNOWN_11
+
+// --- SHADOW ARRAY INSTANCE 1 ---
+0 //burstR1PullDelete
+0 //dribble

@@ -19,6 +19,8 @@
 5.0 //fanOffset
 9.0 //moveKPHMin
 60 //scoreMin
-0 //UNKNOWN_21
-0 //UNKNOWN_22
-0 //UNKNOWN_23
+
+// --- SHADOW ARRAY INSTANCE 1 ---
+0 //angleBase
+0 //bpAngleSubAbsMax
+0 //deltaXEnd

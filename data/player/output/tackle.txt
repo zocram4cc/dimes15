@@ -4,5 +4,7 @@
 1.5 //saftyRate_FarDist
 0.2 //saftyRate_NearDist
 1.75 //tackleThinkDisableToTrap
-0 //UNKNOWN_6
-0 //UNKNOWN_7
+
+// --- SHADOW ARRAY INSTANCE 1 ---
+0 //check_SaftyRate_Delay
+0 //check_SaftyRate_Last_Line

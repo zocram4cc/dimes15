@@ -3,6 +3,8 @@
 30 //continueFrame
 15.0 //distMax
 5.0 //distMin
-0 //UNKNOWN_5
-0 //UNKNOWN_6
-0 //UNKNOWN_7
+
+// --- SHADOW ARRAY INSTANCE 1 ---
+0 //adjustWaitFrame
+0 //baseWaitFrame
+0 //continueFrame

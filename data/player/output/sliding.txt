@@ -3,6 +3,8 @@
 9.0 //UNKNOWN_2
 1.2 //UNKNOWN_3
 0.9 //UNKNOWN_4
-0 //UNKNOWN_5
+
+// --- SHADOW ARRAY INSTANCE 1 ---
+0.0 //HEX 0x00000000, contains animeAccelLimitSpeed, animeAdjustLimitAngle, animeEnterSpeed, animePlaybackSpeedHighest, animePlaybackSpeedLowest, NULL
 0 //UNKNOWN_6
 0 //UNKNOWN_7

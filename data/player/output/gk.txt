@@ -11,6 +11,8 @@
 5.0 //throwRangeNormalMin
 20.0 //waitTimeAddMax
 4.0 //waitTimeAddMin
-0 //UNKNOWN_13
-0 //UNKNOWN_14
-0 //UNKNOWN_15
+
+// --- SHADOW ARRAY INSTANCE 1 ---
+0 //basePosRateClassicalGk
+0 //basePosRateOffensiveGk
+0 //checkFreeRangeGKLongThrow

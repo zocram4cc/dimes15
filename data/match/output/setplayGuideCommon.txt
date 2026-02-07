@@ -4,5 +4,7 @@
 200.0 //thinkDistFar
 50.0 //thinkDistMiddle
 25.0 //thinkDistNear
-0 //UNKNOWN_6
-0 //UNKNOWN_7
+
+// --- SHADOW ARRAY INSTANCE 1 ---
+0 //freekickDebug
+0 //goalKickBackSpin

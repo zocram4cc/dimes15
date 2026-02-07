@@ -56,5 +56,7 @@
 110.0 //wallTargetDistFrameMax
 10.0 //wallTargetDistFrameMin
 0.2 //wallTargetReverseDistRate
-0 //UNKNOWN_58
-0 //UNKNOWN_59
+
+// --- SHADOW ARRAY INSTANCE 1 ---
+0 //adjustDashSpeedRate
+0 //adjustFlyPassFrame

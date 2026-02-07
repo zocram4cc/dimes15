@@ -16,5 +16,7 @@
 6.0 //throwInTime2
 3.0 //transitionTime2
 10.0 //transitionTime3
-0 //UNKNOWN_18
-0 //UNKNOWN_19
+
+// --- SHADOW ARRAY INSTANCE 1 ---
+0 //angleDelta
+0 //angleVelocity

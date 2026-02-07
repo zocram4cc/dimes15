@@ -9,4 +9,6 @@
 220 //symptomDamageLaceration
 240 //symptomDamageLigament
 230 //symptomDamageTearMuscle
-0 //UNKNOWN_11
+
+// --- SHADOW ARRAY INSTANCE 1 ---
+0 //dummy

@@ -5,4 +5,6 @@
 -18.0 //checkTopLineX
 -25.0 //checkTopLineX_adverse
 0 //style
-0 //UNKNOWN_7
+
+// --- SHADOW ARRAY INSTANCE 1 ---
+0 //addCount

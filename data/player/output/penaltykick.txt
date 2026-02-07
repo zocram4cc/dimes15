@@ -1,4 +1,6 @@
-95.0 //shootSpeedKPHMax[0]
-75.0 //shootSpeedKPHMax[1]
-0 //shootSpeedKPHMin[0]
-0 //shootSpeedKPHMin[1]
+95.0 //shootSpeedKPHMax
+75.0 //shootSpeedKPHMin
+
+// --- SHADOW ARRAY INSTANCE 1 ---
+0 //shootSpeedKPHMax
+0 //shootSpeedKPHMin

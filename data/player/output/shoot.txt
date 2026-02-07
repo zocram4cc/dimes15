@@ -19,6 +19,8 @@
 15.0 //outAngle
 90.0 //outTrapezoid0
 10.0 //outTrapezoid1
-0 //UNKNOWN_21
-0 //UNKNOWN_22
-0 //UNKNOWN_23
+
+// --- SHADOW ARRAY INSTANCE 1 ---
+0 //chipElevation
+0 //chipElevationDelta
+0 //chipSpeed

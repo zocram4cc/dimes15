@@ -1,4 +1,4 @@
-0 //highBallPressSpeedAdjust[0]
-0 //highBallPressSpeedAdjust[1]
-0 //highBallPressSpeedAdjust[2]
-0 //highBallPressSpeedAdjust[3]
+0 //highBallPressSpeedAdjust
+0 //UNKNOWN_1
+0 //UNKNOWN_2
+0 //UNKNOWN_3

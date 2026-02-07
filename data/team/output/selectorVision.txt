@@ -4,29 +4,39 @@
 80 //offerNum_spaceRunChance
 96 //offerNum_spaceRunCounter
 112 //offerNum_spaceRunSecondLine
-0 //UNKNOWN_6
-0 //UNKNOWN_7
-1 //UNKNOWN_8
-2 //UNKNOWN_9
-2 //UNKNOWN_10
-0 //UNKNOWN_11
-1 //UNKNOWN_12
-2 //UNKNOWN_13
-2 //UNKNOWN_14
-0 //UNKNOWN_15
-1 //UNKNOWN_16
-2 //UNKNOWN_17
-2 //UNKNOWN_18
-0 //UNKNOWN_19
-2 //UNKNOWN_20
-3 //UNKNOWN_21
-4 //UNKNOWN_22
-0 //UNKNOWN_23
-1 //UNKNOWN_24
-3 //UNKNOWN_25
-4 //UNKNOWN_26
-0 //UNKNOWN_27
-1 //UNKNOWN_28
-2 //UNKNOWN_29
-3 //UNKNOWN_30
-0 //UNKNOWN_31
+
+// --- SHADOW ARRAY INSTANCE 1 ---
+0 //offerNum_diagonalRun
+0 //offerNum_lineBreak
+1 //offerNum_pullAway
+2 //offerNum_spaceRunChance
+2 //offerNum_spaceRunCounter
+0 //offerNum_spaceRunSecondLine
+
+// --- SHADOW ARRAY INSTANCE 2 ---
+1 //offerNum_diagonalRun
+2 //offerNum_lineBreak
+2 //offerNum_pullAway
+0 //offerNum_spaceRunChance
+1 //offerNum_spaceRunCounter
+2 //offerNum_spaceRunSecondLine
+
+// --- SHADOW ARRAY INSTANCE 3 ---
+2 //offerNum_diagonalRun
+0 //offerNum_lineBreak
+2 //offerNum_pullAway
+3 //offerNum_spaceRunChance
+4 //offerNum_spaceRunCounter
+0 //offerNum_spaceRunSecondLine
+
+// --- SHADOW ARRAY INSTANCE 4 ---
+1 //offerNum_diagonalRun
+3 //offerNum_lineBreak
+4 //offerNum_pullAway
+0 //offerNum_spaceRunChance
+1 //offerNum_spaceRunCounter
+2 //offerNum_spaceRunSecondLine
+
+// --- SHADOW ARRAY INSTANCE 5 ---
+3 //offerNum_diagonalRun
+0 //offerNum_lineBreak
