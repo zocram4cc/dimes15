@@ -1,0 +1,72 @@
+BallGard
+dummy
+BreakThrough
+HEX, contains DashCheckSecotor, angle, NULL
+BreakThrough
+HEX, contains DashCheckSecotor, dist, NULL
+BreakThrough
+distDecideAngle
+BreakThrough
+distThikStart
+BreakThrough
+enemySearchAngle
+HEX, contains MatchUp, Burst, angleSubMax, MatchUp, Burst, enemyFanWidth, MatchUp, Burst, enemyFutureFrame, MatchUp, Burst, startDist, MatchUp, OneTwo, NULL
+courseCheckWidth
+HEX, contains MatchUp, OneTwo, distTargetToEnemy, MatchUp, OneTwo, passTimingDist, MatchUp, OneTwo, rangeFar, MatchUp, OneTwo, rangeNear, MatchUp, Slide, NULL
+keepDistMax
+HEX, contains MatchUp, Slide, keepDistMin, MatchUp, Slide, startDist, MatchUp, distThikStart, Nomal, distDecideAngle, Nomal, distLeaveEnemy, Nomal, enemySearchAngle, NULL
+HEX, contains Nomal, frameLeaveEnemy, Nomal, rateLeaveEnemy, QuickTurn, NULL
+dummy
+HEX, contains Safety, GearDownCheckSecotor, angle, Safety, GearDownCheckSecotor, dist, Safety, GearDownCheckSecotor, frame, Safety, NULL
+distDecideAngle
+HEX, contains Safety, distLeaveEnemy, Safety, enemyCheckDistMax, Safety, enemyCheckDistMin, Safety, enemySearchAngle, Safety, frameLeaveEnemy, NULL
+HEX, contains Safety, gearDownMoveAngleSub, Safety, rateLeaveEnemy, Stop, dummy, NULL
+UNKNOWN_23
+UNKNOWN_24
+UNKNOWN_25
+UNKNOWN_26
+UNKNOWN_27
+UNKNOWN_28
+UNKNOWN_29
+UNKNOWN_30
+UNKNOWN_31
+UNKNOWN_32
+UNKNOWN_33
+UNKNOWN_34
+UNKNOWN_35
+UNKNOWN_36
+UNKNOWN_37
+UNKNOWN_38
+UNKNOWN_39
+UNKNOWN_40
+UNKNOWN_41
+UNKNOWN_42
+UNKNOWN_43
+UNKNOWN_44
+UNKNOWN_45
+UNKNOWN_46
+UNKNOWN_47
+UNKNOWN_48
+UNKNOWN_49
+UNKNOWN_50
+UNKNOWN_51
+UNKNOWN_52
+UNKNOWN_53
+UNKNOWN_54
+UNKNOWN_55
+UNKNOWN_56
+UNKNOWN_57
+UNKNOWN_58
+UNKNOWN_59
+UNKNOWN_60
+UNKNOWN_61
+UNKNOWN_62
+UNKNOWN_63
+UNKNOWN_64
+UNKNOWN_65
+UNKNOWN_66
+UNKNOWN_67
+UNKNOWN_68
+UNKNOWN_69
+UNKNOWN_70
+UNKNOWN_71

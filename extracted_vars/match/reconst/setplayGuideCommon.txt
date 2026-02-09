@@ -1,0 +1,8 @@
+freekickDebug
+goalKickBackSpin
+goalKickMode
+thinkDistFar
+thinkDistMiddle
+thinkDistNear
+UNKNOWN_6
+UNKNOWN_7

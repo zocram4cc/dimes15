@@ -1,0 +1,316 @@
+controlShootGageMax
+controlShootGageMid
+controlShootGageMin
+normalShootGageMax
+normalShootGageMid
+normalShootGageMin
+pad
+project1vs1
+burstTest
+project1vs1
+decelerateThreshold
+project1vs1
+delayAreaAutoStep
+project1vs1
+dribbleAngleLimitDash
+project1vs1
+dribbleAngleLimitRunToDash
+project1vs1
+dribbleAngleLimitStopToDash
+project1vs1
+dribbleDashGotoKickDist
+project1vs1
+dribbleDashKickDist
+project1vs1
+dribbleFrontNormalKickDist
+project1vs1
+dribbleFrontNormalTouchEnable
+project1vs1
+dribbleFrontNormalTouchRate
+project1vs1
+dribbleGotoAddFrame
+project1vs1
+dribbleGotoKickDist
+project1vs1
+dribbleNormalKickDist
+project1vs1
+dribbleStopDist
+project1vs1
+dribbleStopSpeed
+project1vs1
+HEX, contains enable, project1vs1, NULL
+freeMoveStopDist
+project1vs1
+jostle
+move
+cancelQuickly
+project1vs1
+jostle
+move
+joinDisable
+project1vs1
+jostle
+move
+settleAlways
+project1vs1
+loseNoDodgeFlag
+project1vs1
+lostBallAfterStopTime
+project1vs1
+pressCheckStepMoveDistance
+project1vs1
+HEX, contains pressUpdateTimer, ballAngleSub, project1vs1, pressUpdateTimer, distFuzzyEnable, project1vs1, pressUpdateTimer, distMax, NULL
+project1vs1
+HEX, contains pressUpdateTimer, distMin, project1vs1, pressUpdateTimer, hitFrameRate, project1vs1, pressUpdateTimer, pressAngleSub, NULL
+project1vs1
+HEX, contains pressUpdateTimer, rateKind, project1vs1, pressUpdateTimer, timerMax, project1vs1, slowDribble, enable, NULL
+project1vs1
+slowDribble
+jogEnable
+project1vs1
+slowDribble
+stickKeepTime
+project1vs1
+slowDribble
+stickRate
+project1vs1
+stepMoveFront
+distAdjust
+ballSpeedKphMax
+project1vs1
+stepMoveFront
+distAdjust
+ballSpeedKphMin
+project1vs1
+stepMoveFront
+distAdjust
+HEX, contains enable, project1vs1, NULL
+stepMoveFront
+distAdjust
+value
+project1vs1
+stepMoveFront
+distBase
+project1vs1
+stepMoveFront
+mode
+project1vs1
+stepMoveSpeed
+project1vs1
+tackle
+animeAccelLimitSpeed
+project1vs1
+tackle
+animeAdjustLimitAngleIdle
+project1vs1
+tackle
+animeAdjustLimitAngleMove
+project1vs1
+tackle
+animeBallVisibleCheck
+project1vs1
+tackle
+animeEnterSpeed
+project1vs1
+tackle
+animeFarCutFrame
+project1vs1
+tackle
+animeMidCutFrame
+project1vs1
+tackle
+animeNearCutFrame
+project1vs1
+tackle
+animePlaybackSpeedHighest
+project1vs1
+tackle
+animePlaybackSpeedLowest
+project1vs1
+tackle
+animePressTackleEnableAngleIdle
+project1vs1
+tackle
+animePressTackleEnableAngleMove
+project1vs1
+tackle
+animeShoulderCutFrame
+project1vs1
+tackle
+animeShoulderSlideLimit
+project1vs1
+tackle
+animeStepMoveAutoTackleFarEnable
+project1vs1
+tackle
+animeStepMoveAutoTackleVeryfarEnable
+project1vs1
+tackle
+animeVeryfarCutFrame
+project1vs1
+tackle
+autoSideStepEnable
+project1vs1
+tackle
+failAfterStopTime
+project1vs1
+tackle
+forecastHitRate
+project1vs1
+tackle
+freeMoveTackleMode
+project1vs1
+tackle
+manualSideStepEnable
+project1vs1
+tackle
+reactionStartFrame
+project1vs1
+trapLoss
+project1vs1
+HEX, contains waitTimer, ballAngleSub, project1vs1, waitTimer, distMax, project1vs1, waitTimer, distMin, project1vs1, waitTimer, NULL
+pressAngleSub
+project1vs1
+HEX, contains waitTimer, pressDistMax, project1vs1, waitTimer, pressDistMin, project1vs1, waitTimer, pressTimerMax, project1vs1, waitTimer, NULL
+rateKind
+project1vs1
+HEX, contains waitTimer, timerMax, projectKeeper, useCatchLieAlways, projectKick, cross, adjustAngle, projectKick, cross, adjustAngleHigh, NULL
+HEX, contains projectKick, cross, adjustGageFarZ, projectKick, cross, adjustGageNearZ, projectKick, NULL
+cross
+adjustSpeed
+HEX, contains projectKick, cross, adjustSpeedGrounder, projectKick, cross, adjustSpeedHigh, projectKick, NULL
+cross
+adjustStickAngleTest
+HEX, contains projectKick, cross, debugDisp, projectKick, cross, debugDisp_searchBasePoint, projectKick, NULL
+cross
+gageTest
+HEX, contains projectKick, cross, limitBackX, projectKick, cross, limitFrontX, projectKick, NULL
+cross
+searchMaxDist
+HEX, contains projectKick, cross, searchMinDist, projectKick, cross, searchTest, projectKick, NULL
+cross
+stickTest
+HEX, contains projectKick, fly, adjustAngleXZBStick, attackSideAdjustAngleXZMax, projectKick, fly, adjustAngleXZBStick, NULL
+defenceSideAdjustAngleXZMax
+HEX, contains projectKick, fly, gageManualTest, projectKick, fly, height, distMax, NULL
+HEX, contains projectKick, fly, height, distMax_high, projectKick, fly, height, NULL
+distMin
+HEX, contains projectKick, fly, height, distMin_high, projectKick, fly, height, NULL
+heightForDistMax
+HEX, contains projectKick, fly, height, heightForDistMax_high, projectKick, fly, height, NULL
+heightForDistMin
+HEX, contains projectKick, fly, height, heightForDistMin_high, projectKick, fly, manual, NULL
+distForGageMax
+HEX, contains projectKick, fly, manual, distForGageMin, projectKick, fly, manual, NULL
+interpolateRate
+HEX, contains projectKick, fly, manualBlend, manualRateGageMaxParaMax, projectKick, fly, manualBlend, NULL
+manualRateGageMaxParaMin
+HEX, contains projectKick, fly, manualBlend, manualRateGageStrongParaMax, projectKick, fly, manualBlend, NULL
+manualRateGageStrongParaMin
+HEX, contains projectKick, fly, manualBlend, manualRateGageWeakParaMax, projectKick, fly, manualBlend, NULL
+manualRateGageWeakParaMin
+HEX, contains projectKick, fly, search, angleRate, projectKick, fly, search, NULL
+debugDisp_searchBasePoint
+HEX, contains projectKick, fly, search, distRate, projectKick, fly, search, NULL
+searchMaxDist
+HEX, contains projectKick, fly, search, searchMinDist, projectKick, gageDisp, projectKick, NULL
+gageSpeed
+cross
+HEX, contains projectKick, gageSpeed, longPass, projectKick, gageSpeed, shoot, projectKick, NULL
+gageSpeed
+shortPass
+HEX, contains projectKick, gageSpeed, throughPass, projectKick, grounder, angleY, angleForDistMax, NULL
+HEX, contains projectKick, grounder, angleY, angleForDistMin, projectKick, grounder, angleY, NULL
+distMax
+HEX, contains projectKick, grounder, angleY, distMin, projectKick, grounder, gageManualTest, NULL
+HEX, contains projectKick, grounder, manual, distForGageMax, projectKick, grounder, manual, NULL
+distForGageMin
+HEX, contains projectKick, grounder, manualBlend, manualRateGageStrongParaMax, projectKick, grounder, manualBlend, NULL
+manualRateGageStrongParaMin
+HEX, contains projectKick, grounder, manualBlend, manualRateGageWeakParaMax, projectKick, grounder, manualBlend, NULL
+manualRateGageWeakParaMin
+HEX, contains projectKick, grounder, search, angleRate, projectKick, grounder, search, NULL
+debugDisp_searchBasePoint
+HEX, contains projectKick, grounder, search, distRate, projectKick, grounder, search, NULL
+searchMaxDist
+HEX, contains projectKick, grounder, search, searchMinDist, projectKick, shoot, advanceLoop, NULL
+distMax
+HEX, contains projectKick, shoot, advanceLoop, distMin, projectKick, shoot, advanceLoop, NULL
+heightMaxForGageMax
+HEX, contains projectKick, shoot, advanceLoop, heightMaxForGageMin, projectKick, shoot, advanceLoop, NULL
+heightMinForGageMax
+HEX, contains projectKick, shoot, advanceLoop, heightMinForGageMin, projectKick, shoot, control_dy, NULL
+gageMax
+HEX, contains projectKick, shoot, control_dy, gageMin, projectKick, shoot, control_dy, NULL
+interpolateRate
+HEX, contains projectKick, shoot, loop, angleY, projectKick, shoot, loop, NULL
+manualRate
+HEX, contains projectKick, shoot, loop, speedForGageMax, projectKick, shoot, loop, NULL
+speedForGageMin
+HEX, contains projectKick, shoot, normal_dy, gageMax, projectKick, shoot, normal_dy, NULL
+gageMin
+HEX, contains projectKick, shoot, normal_dy, interpolateRate, projectKick, through, adjustFrameTime, NULL
+HEX, contains projectKick, through, adjustFrameTimeBase, projectKick, through, adjustPassGetSpeed, projectKick, NULL
+through
+adjustPassGetSpeedFly
+HEX, contains projectKick, through, basePassGetSpeed, projectKick, through, basePassGetSpeedFly, projectKick, NULL
+through
+debugDisp
+HEX, contains projectKick, through, debugDisp_searchBasePoint, projectKick, through, gageAdjustMaxSpeedFlyMinus, projectKick, NULL
+through
+gageAdjustMaxSpeedFlyPlus
+HEX, contains projectKick, through, gageAdjustMaxSpeedMinus, projectKick, through, gageAdjustMaxSpeedPlus, projectKick, NULL
+through
+gageAdjustSpeedIntercept
+HEX, contains projectKick, through, gageAdjustSpeedInterceptBase, projectKick, through, gageTest1, projectKick, NULL
+through
+gageTest2
+HEX, contains projectKick, through, gageTest3, projectKick, through, gageTest4, projectKick, NULL
+through
+minFlyDistFromTarget
+HEX, contains projectKick, through, passGetSpeedTest, projectKick, through, searchLengthMax, projectKick, NULL
+through
+searchLengthMax_fly
+HEX, contains projectKick, through, searchLengthMin, projectKick, through, searchMaxDist, projectKick, NULL
+through
+searchMaxDistFly
+HEX, contains projectKick, through, searchMinDist, projectKick, through, searchMinDistFly, projectKick, NULL
+through
+searchTest
+HEX, contains projectKick, through, stickTest1, projectKick, through, stickTest2, projectKick, NULL
+through
+stickTest3
+HEX, contains projectKick, through, stickTest4, projectKick, through, stickTest5, projectThrowin, NULL
+dist
+projectThrowin
+touchLineDist
+stopConcept
+UNKNOWN_287
+UNKNOWN_288
+UNKNOWN_289
+UNKNOWN_290
+UNKNOWN_291
+UNKNOWN_292
+UNKNOWN_293
+UNKNOWN_294
+UNKNOWN_295
+UNKNOWN_296
+UNKNOWN_297
+UNKNOWN_298
+UNKNOWN_299
+UNKNOWN_300
+UNKNOWN_301
+UNKNOWN_302
+UNKNOWN_303
+UNKNOWN_304
+UNKNOWN_305
+UNKNOWN_306
+UNKNOWN_307
+UNKNOWN_308
+UNKNOWN_309
+UNKNOWN_310
+UNKNOWN_311
+UNKNOWN_312
+UNKNOWN_313
+UNKNOWN_314
+UNKNOWN_315

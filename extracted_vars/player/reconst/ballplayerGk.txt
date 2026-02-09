@@ -1,0 +1,24 @@
+HEX, contains ClearInfo, enemyDist, NULL
+HEX, contains ClearInfo, forceKickTime, NULL
+HEX, contains LongPassInfo, forceEnemyDist, LongPassInfo, forceKickTime, LongPassInfo, NULL
+limitLineFromPenaltyLine
+HEX, contains LongPassInfo, rangeFar, LongPassInfo, rangeNear, ShortPassInfo, NULL
+courseCheckWidth
+HEX, contains ShortPassInfo, passAngleSubMax, ShortPassInfo, passDistMax, ShortPassInfo, rangeFar, NULL
+HEX, contains ShortPassInfo, rangeNear, ShortPassInfo, targetFreeDist, limitLineFromPenaltyLine, NULL
+UNKNOWN_8
+UNKNOWN_9
+UNKNOWN_10
+UNKNOWN_11
+UNKNOWN_12
+UNKNOWN_13
+UNKNOWN_14
+UNKNOWN_15
+UNKNOWN_16
+UNKNOWN_17
+UNKNOWN_18
+UNKNOWN_19
+UNKNOWN_20
+UNKNOWN_21
+UNKNOWN_22
+UNKNOWN_23

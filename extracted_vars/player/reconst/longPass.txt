@@ -1,0 +1,16 @@
+highDistMax
+highDistMin
+highHeightMax
+highHeightMin
+highRoll
+highY
+lowBoundDist
+lowBoundRate
+lowDistMax
+lowDistMin
+lowHeightMax
+lowHeightMin
+lowRoll
+lowY
+UNKNOWN_14
+UNKNOWN_15

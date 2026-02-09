@@ -1,7 +1,7 @@
-45.0 //angleMax
-22.5 //angleMaxAdjust
-90.0 //angleMaxFront
-22.5 //angleMaxMargin
+55.0 //angleMax
+25.0 //angleMaxAdjust
+100.0 //angleMaxFront
+25.0 //angleMaxMargin
 135.0 //angleSubAbsMax
 0 //angleSubAbsMaxMargin
 20.0 //baseDistMax
@@ -18,8 +18,8 @@
 8.0 //distDashQuick
 2.0 //distJog
 1.0 //distJogMargin
-20.0 //distMax
-15.0 //distMaxAdjust
+22.0 //distMax
+17.0 //distMaxAdjust
 5.0 //distMaxMargin
 3.0 //distRequestPass
 4.0 //distRun

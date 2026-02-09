@@ -1,0 +1,12 @@
+burstR1PullDelete
+dribble
+burstR1PullDelete
+enable
+burstR1PullDelete
+trap
+kickAngleChangeOfferNowAnimeKick
+kickAngleChangeOfferTimer
+kickCommandCreateButtonPull
+shootKickAngleChangeOfferTimer
+UNKNOWN_10
+UNKNOWN_11

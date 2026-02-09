@@ -1,0 +1,4 @@
+centeringCurveAdjustMax
+centeringCurveBase
+centeringMaxSpeedHigh
+centeringMaxSpeedLow

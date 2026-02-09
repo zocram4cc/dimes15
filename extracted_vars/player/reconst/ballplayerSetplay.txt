@@ -1,0 +1,16 @@
+HEX, contains FreekickShoot, range_frontZ, FreekickShoot, range_max, FreekickShoot, NULL
+range_middle
+HEX, contains FreekickShoot, range_short, FreekickShoot, range_width, Throwin, NULL
+range_long
+HEX, contains Throwin, range_min, Throwin, NULL
+range_short
+waitTimerMin
+UNKNOWN_7
+UNKNOWN_8
+UNKNOWN_9
+UNKNOWN_10
+UNKNOWN_11
+UNKNOWN_12
+UNKNOWN_13
+UNKNOWN_14
+UNKNOWN_15

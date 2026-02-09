@@ -30,7 +30,7 @@
 15 //matchUpStartLine
 28.0 //matchUpStartLineMax
 5.0 //matchUpZLimit
-1.0 //maxSandDist
-30.0 //maxWaitTime
-40 //predictionFrame
-80.0 //upperConnectionParam
+16.0 //maxSandDist
+28.0 //maxWaitTime
+39 //predictionFrame
+78.0 //upperConnectionParam

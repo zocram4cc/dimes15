@@ -1,0 +1,16 @@
+HEX, contains press, checkArea, press, checkDist, press, checkDistShoot, press, enable, NULL
+HEX, contains press, target, centering, press, target, longPass, press, target, NULL
+shoot
+HEX, contains press, target, shortPass, NULL
+UNKNOWN_4
+UNKNOWN_5
+UNKNOWN_6
+UNKNOWN_7
+UNKNOWN_8
+UNKNOWN_9
+UNKNOWN_10
+UNKNOWN_11
+UNKNOWN_12
+UNKNOWN_13
+UNKNOWN_14
+UNKNOWN_15

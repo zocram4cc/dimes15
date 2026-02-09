@@ -1,0 +1,12 @@
+param_rate
+high
+param_rate
+highest
+param_rate
+low
+param_rate
+lowest
+param_rate
+normal_down
+param_rate
+normal_up

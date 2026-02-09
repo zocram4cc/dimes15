@@ -1,0 +1,12 @@
+angleDiff
+angleDiff_good
+checkBallDist
+checkBallDistBP
+checkBallDistBP_good
+checkBallDist_good
+checkLastLineDist
+checkLastLineDist_good
+checkZ
+checkZ_good
+HEX, contains eyeOff, lastLine, lastLineEnemy, pullAway, NULL
+pullAwaySide

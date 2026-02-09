@@ -1,0 +1,16 @@
+HEX, contains autoFrontMove, enable, autoFrontMove, moveKind, autoFrontMove, pressure, circleDist, NULL
+HEX, contains autoFrontMove, pressure, mode, autoFrontMove, pressure, secDiff, autoFrontMove, NULL
+pressure
+thinkDelay
+HEX, contains autoFrontMove, slowMoveEnable, defence, paraMax, defence, paraMin, defence, NULL
+secMax
+defence
+secMin
+UNKNOWN_8
+UNKNOWN_9
+UNKNOWN_10
+UNKNOWN_11
+UNKNOWN_12
+UNKNOWN_13
+UNKNOWN_14
+UNKNOWN_15

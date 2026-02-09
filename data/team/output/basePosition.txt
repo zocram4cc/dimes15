@@ -68,8 +68,8 @@
 12.0 //dfAttackWidthMarginFront
 0.0 //HEX 0x01010100, contains dfCoverAdjustX, dfCoverEnable, dfForceAverageZ, NULL
 0.5 //dfGroupRate
-12 //dfLine
-12.0 //dfLineAdjustMax
+13 //dfLine
+13.0 //dfLineAdjustMax
 5.0 //dfLineAdjustMin
 6.0 //dfLineBack
 8.5 //dfLineCenterAdjustMax
@@ -130,7 +130,7 @@
 13.0 //limitBesideWidth
 13.0 //limitBesideWidth_df
 1 //lineControl
-47.0 //lowerConnectionParam
+52.0 //lowerConnectionParam
 120 //marginPredictionFrameAdjust
 0 //marginPredictionFrameBase
 3.0 //marginSide
@@ -140,12 +140,12 @@
 40.0 //matchUpContinueRate_FW_MF
 95.0 //maxCloseXRate_FreeKick
 30.0 //maxWaitTime
-0.2 //mfAdjustMaxRateX
+0.25 //mfAdjustMaxRateX
 0.3 //mfGroupRate
 0.1 //mfLineRate
 10.0 //mfLineScore_adjustMax
-35.0 //mfPushUpRate
-65.0 //mfPushUpRate_offencive
+38.0 //mfPushUpRate
+68.0 //mfPushUpRate_offencive
 8.0 //minDistMF_DF
 1.5 //minDistMF_FW
 8.0 //minWidth
@@ -167,7 +167,7 @@
 0.24 //setPlayDeclineRate
 1.0 //setplayToInplayHeightMax
 0 //setplayToInplayHeightMin
-0.3 //sideBackPushUpRate
+0.35 //sideBackPushUpRate
 1 //sideClose
 60.0 //sideCloseRate
 0 //slide
@@ -198,7 +198,7 @@
 3 //transitionPriorityX
 5 //transitionSec
 0 //transitionSmooth
-68.0 //upperConnectionParam
+72.0 //upperConnectionParam
 20.0 //walkMfLineScore
 0.3 //wideRate
 0 //xposiRateCustom

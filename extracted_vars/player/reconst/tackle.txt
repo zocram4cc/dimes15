@@ -1,0 +1,8 @@
+check_SaftyRate_Delay
+check_SaftyRate_Last_Line
+check_SaftyRate_No_Cover
+saftyRate_FarDist
+saftyRate_NearDist
+tackleThinkDisableToTrap
+UNKNOWN_6
+UNKNOWN_7

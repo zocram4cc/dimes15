@@ -1,0 +1,4 @@
+centeringGetPattern[0]
+centeringGetPattern[1]
+centeringGetPattern[2]
+centeringGetPattern[3]

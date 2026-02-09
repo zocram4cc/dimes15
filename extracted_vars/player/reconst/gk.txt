@@ -1,0 +1,16 @@
+basePosRateClassicalGk
+basePosRateOffensiveGk
+checkFreeRangeGKLongThrow
+checkFreeRangeGKNormalThrow
+checkFreeRangeLowPantKick
+lowPantKickRangeMax
+lowPantKickRangeMin
+throwRangeLongMax
+throwRangeLongMin
+throwRangeNormalMax
+throwRangeNormalMin
+waitTimeAddMax
+waitTimeAddMin
+UNKNOWN_13
+UNKNOWN_14
+UNKNOWN_15

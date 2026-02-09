@@ -1,0 +1,44 @@
+gage
+HEX, contains rot, addBackSpin, rot, addHigh, rot, adjustDist, NULL
+addValue
+HEX, contains rot, adjustDist, distMax, rot, adjustDist, distMin, NULL
+HEX, contains rot, adjustDist, enable, rot, base, rot, NULL
+topSpinRot
+HEX, contains speed, addGage, addParaRate, speed, addGage, base, speed, NULL
+base
+HEX, contains speed, kickPowerParameter, debugParameter, speed, kickPowerParameter, max, speed, NULL
+kickPowerParameter
+min
+HEX, contains speed, kickPowerParameter, mode, spin, backSpin, base, spin, NULL
+backSpin
+paraRate
+HEX, contains spin, sideSpin, base, spin, sideSpin, paraRate, spin, sideSpin, reverse, spin, NULL
+topSpin
+base
+HEX, contains spin, topSpin, paraRate, NULL
+UNKNOWN_18
+UNKNOWN_19
+UNKNOWN_20
+UNKNOWN_21
+UNKNOWN_22
+UNKNOWN_23
+UNKNOWN_24
+UNKNOWN_25
+UNKNOWN_26
+UNKNOWN_27
+UNKNOWN_28
+UNKNOWN_29
+UNKNOWN_30
+UNKNOWN_31
+UNKNOWN_32
+UNKNOWN_33
+UNKNOWN_34
+UNKNOWN_35
+UNKNOWN_36
+UNKNOWN_37
+UNKNOWN_38
+UNKNOWN_39
+UNKNOWN_40
+UNKNOWN_41
+UNKNOWN_42
+UNKNOWN_43

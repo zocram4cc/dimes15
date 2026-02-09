@@ -1,0 +1,12 @@
+dummy
+levelDamageMicro
+levelDamageMiddle
+levelDamageMinor
+levelDamageSerious
+symptomDamageBruise
+symptomDamageFracture
+symptomDamageInflammation
+symptomDamageLaceration
+symptomDamageLigament
+symptomDamageTearMuscle
+UNKNOWN_11

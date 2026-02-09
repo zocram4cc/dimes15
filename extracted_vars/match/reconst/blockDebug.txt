@@ -1,0 +1,60 @@
+HEX, contains defence, keeper, defence, NULL
+HEX, contains moveKind, NULL
+HEX, contains defence, moveMode, defence, NULL
+moveSpeed
+HEX, contains defence, parameter, fishDive, NULL
+HEX, contains defence, parameter, heel, NULL
+HEX, contains defence, parameter, keeperCheck, NULL
+HEX, contains defence, parameter, keeperCheckStyle, NULL
+HEX, contains defence, parameter, keeperStartParam, NULL
+HEX, contains defence, parameter, kickerStartParam, NULL
+HEX, contains defence, pattern, defence, NULL
+situation
+HEX, contains defence, stop, offence, NULL
+HEX, contains kickAuto, checkXRate, offence, NULL
+HEX, contains kickAuto, checkZ, offence, NULL
+HEX, contains kickAuto, enable, offence, NULL
+HEX, contains kickDebug, adjustY, offence, kickDebug, adjustZ, offence, kickDebug, checkXRate, NULL
+HEX, contains offence, kickDebug, NULL
+checkZ
+HEX, contains offence, kickDebug, NULL
+enable
+HEX, contains offence, kickDebug, NULL
+shootKind
+HEX, contains offence, kickDebug, NULL
+startSpeedLevel
+HEX, contains offence, kickMode, NULL
+HEX, contains offence, kickPointBall, NULL
+HEX, contains offence, kickPointBall, NULL
+HEX, contains offence, kickPointDirect, NULL
+HEX, contains offence, kickPointDirect, NULL
+HEX, contains offence, kickPointGoal, NULL
+HEX, contains offence, kickPointGoal, NULL
+HEX, contains offence, kickPosition, NULL
+angle
+HEX, contains offence, kickPosition, NULL
+dist
+HEX, contains offence, kickPosition, NULL
+dribbleAiThink
+HEX, contains offence, kickPosition, NULL
+dribbleStart
+HEX, contains offence, kickPosition, NULL
+shootKpDist
+HEX, contains offence, kickRotMode, NULL
+HEX, contains retry, auto, retry, NULL
+setid
+UNKNOWN_45
+UNKNOWN_46
+UNKNOWN_47
+UNKNOWN_48
+UNKNOWN_49
+UNKNOWN_50
+UNKNOWN_51
+UNKNOWN_52
+UNKNOWN_53
+UNKNOWN_54
+UNKNOWN_55
+UNKNOWN_56
+UNKNOWN_57
+UNKNOWN_58
+UNKNOWN_59
