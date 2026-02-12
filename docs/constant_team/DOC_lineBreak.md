@@ -1,17 +1,23 @@
-# PES 2015 AI Documentation: lineBreak.txt
+# constant_team: lineBreak (Attacking Runs)
 
-This file defines the behavior of "Goal Poachers" and "Line Breakers"—players who focus on beating the offside trap and making runs behind the defensive line.
+Governs the logic for players making forward runs behind the defensive line.
 
----
+## Hole Player Triggers (_good)
 
-## 1. Gap Analysis
-- **searchCount / _lineBreaker**: The frequency and depth of the AI's search for gaps in the opponent's defensive line.
-- **checkAreaScore / _lineBreaker**: The scoring system used to evaluate the potential of a run. High scores = high-risk, high-reward space.
+This file contains several variables suffixed with `_good`. These are primarily activated when a player has the **Hole Player** Playing Style and is in a compatible position. They can also be activated temporarily for the entire team during specific advantageous game states.
 
-## 2. Stealth & Visual Awareness
-- **checkBodyAngleEyesOff / _lineBreaker**: The orientation of the runner's body to move into a defender's blind spot.
-- **checkSideAngleEyesOff**: The "shoulder check" logic used to track the last defender while preparing a sprint.
+The previous community assumption was that these were linked to the "Incisive Run" COM style; this has been proven incorrect by code tracing.
 
-## 3. Interception Prediction
-- **checkInterceptScore**: An evaluation of whether a through-pass is likely to be intercepted. Strikers with higher intelligence stats will only run if the pass "lane" is statistically viable.
-- **checkDistEyesOff**: The proximity threshold where the runner stops looking at the ball and starts looking only at the "breakaway" point.
+| Variable | Description | Default | _good (Hole Player) |
+| :--- | :--- | :--- | :--- |
+| `checkBallDist` | Base trigger distance for a run. | 60.0 | 90.0 (+50% Range) |
+| `checkBallDistBP` | Trigger distance from the ball possession point. | 80.0 | 60.0 (Closer, more precise) |
+| `angleDiff` | Permissive angle for the run. | 90.0 | 70.0 (Stricter, more direct) |
+| `checkZ` | Lateral check distance. | 70 | 40 (Tighter, more central) |
+| `checkLastLineDist`| Distance to the defensive line to trigger a run.| 15.0 | 25.0 (+67% Range) |
+
+
+## Tactical Notes
+
+*   **Hole Player Precision**: The `_good` values for Hole Players are not simply "better"; they are different. They trigger runs from further away (`checkBallDist_good`) but require the player to be closer to the ball (`checkBallDistBP_good`) and run at a more direct, less forgiving angle (`angleDiff_good`). This creates the signature "late, darting run" that characterizes the style.
+*   **Situational vs. Permanent**: A key part of balancing the game is deciding how much of a bonus to give Hole Players versus the team as a whole. Increasing the `_good` values buffs both, but only Hole Players will benefit from them consistently.

@@ -1,26 +1,22 @@
-# PES 2015 AI Documentation: spaceRun.txt
+# constant_team: spaceRun (Chance Creation)
 
-This file defines the primary offensive logic for finding and exploiting open space. It is divided into scenarios: Chance (Buildup), Counter (Fast break), Flow (Circulation), and Second (Late box arrival).
+Governs how teammates move into space to receive passes or create goal-scoring opportunities.
 
----
+## Hole Player & Enhanced Runs (_good)
 
-## 1. Scenario Modifiers
-- **_chance**: Thresholds for runs during sustained possession in the final third.
-- **_counter**: Thresholds for high-speed runs during transitions.
-- **_second**: Logic for "late arrivals"—usually midfielders making runs into the box while forwards occupy the defense.
-- **_flow**: Soft runs intended to keep the ball moving when no penetration is possible.
+Variables suffixed with `_good` are primarily activated by the **Hole Player** Playing Style when the player is in a compatible position (AMF, CMF, LMF, RMF). They can also be triggered temporarily for all players during certain match states (e.g., counter-attacks).
 
-## 2. Spatial Constraints
-- **angleDiff / angleWidth**: Geographic rules for the run to ensure it provides a clear passing lane from the ball carrier.
-- **checkBallDist**: Radius around the carrier; prevents teammates from cluttering the ball carrier's space.
-- **checkOffsideLineDistX**: How close the runner is allowed to get to the last defender before curving or slowing down.
-- **checkZ**: Lateral width requirements for the run.
+This was previously thought to be linked to the "Incisive Run" COM style, but code tracing has proven this incorrect.
 
-## 3. Decision Metrics
-- **checkScore / _flow / _good**: Internal ratings for "space quality." Factors in the distance to defenders and the "openness" of the receiving sector.
-- **checkInterceptScore**: Rejection threshold; if an opponent is likely to intercept the pass, the run is cancelled.
-- **supportTime**: The "patience" of the runner—how long they will hold an attacking position before resetting.
+| Variable | Description | Default | _good (Hole Player) |
+| :--- | :--- | :--- | :--- |
+| `chanceScore` | Minimum quality score to trigger a "Chance" run. | 100 | 85 (More frequent) |
+| `checkAngleWidthSector` | The width of the cone the player scans for space. | 30 | 50 (+67% wider) |
+| `checkAreaNum` | Number of potential run paths evaluated by the AI. | 2 | 4 (+100% options) |
+| `searchCount` | Number of times the AI re-evaluates its run path. | 4 | 6 (+50% re-evaluations)|
+| `supportTime` | Frames until a support run is initiated. | 3 | 2 (33% Quicker) |
 
-## 4. Search & Vision
-- **searchCount / _good**: The frequency of the AI's "scouting" scans for open space.
-- **sectorDist**: The resolution of the AI's space grid; determines how granularly it analyzes the pitch for holes.
+## Strategic Implications
+
+*   **The "Hole Player" Advantage**: The `_good` system is what makes Hole Players so effective at finding space. They scan wider areas, consider more options, and react faster than any other playing style.
+*   **Situational Boosts**: Because these values are also triggered situationally for all players, increasing the gap between `base` and `_good` values will make counter-attacks more explosive for the entire team, while still giving Hole Players a permanent edge.
