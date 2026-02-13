@@ -2,7 +2,7 @@
 0.0 //HEX 0x00000000, contains press, target, centering, press, target, longPass, press, target, NULL
 0 //shoot
 0.0 //HEX 0x00000000, contains press, target, shortPass, NULL
-0.0 //UNKNOWN_4
+0 //UNKNOWN_4
 0 //UNKNOWN_5
 0 //UNKNOWN_6
 0 //UNKNOWN_7

@@ -75,6 +75,8 @@
 18.0 //zoneMarkZLimit_BoxToBox
 2.85 //zoneZRange
 5.5 //zoneZRangeAlone
-0 //UNKNOWN_77
-0 //UNKNOWN_78
-0 //UNKNOWN_79
+
+// --- SHADOW ARRAY INSTANCE 1 ---
+0 //addAngleKickOff
+0 //addRemainMarkXDistDf
+0 //adjustApproachRateMax_inOffenceDir

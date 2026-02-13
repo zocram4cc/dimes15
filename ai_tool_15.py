@@ -2,8 +2,9 @@ import struct
 import os
 import re
 
-# PES 2015 Tactical Engine - Definitive Restoration Tool
-# Stride 14 Stride Alignment: Match (5393), Player (5645), Team (6065)
+# PES 2015 AI Constants Tool
+# Restored stable formatting logic to ensure whole-number floats retain .0 suffix.
+# Reverted custom special handling for pes15Test and teamEmotion to maintain git compatibility.
 
 PACKING_MAP = {
     "ball": { "rotationCustom": 2 },
@@ -49,6 +50,14 @@ STYLE_NAMES = {
     19: "DefensiveFullback", 20: "OffensiveGK", 21: "DefensiveGK"
 }
 
+def format_val(ival, fval):
+    if abs(ival) < 100000 and (fval == 0.0 or ival != 0):
+        return str(ival)
+    else:
+        val_str = f"{fval:.6f}".rstrip('0')
+        if val_str.endswith('.'): val_str += '0'
+        return val_str
+
 def extract_blocks_from_exe(exe_path):
     if not os.path.exists(exe_path): return [], -1, -1, -1
     with open(exe_path, 'rb') as f: data = f.read()
@@ -62,14 +71,12 @@ def extract_blocks_from_exe(exe_path):
     if cur: blocks.append(cur)
     rev = blocks[::-1]
     
-    # Precise markers for tactical section, bypassing networking
     ball_idx = -1; avoid_idx = -1; base_pos_idx = -1
     for i, b in enumerate(rev):
         if 'msgid' in b or 'rqid' in b or 'svrtype' in b: continue
         if 'airRegistNormal' in b and len(b) > 30 and ball_idx == -1: ball_idx = i
         if 'angleDelta' in b and len(b) == 18 and avoid_idx == -1: avoid_idx = i
         if 'adjustAngle_FreeKickSupport' in b and base_pos_idx == -1: base_pos_idx = i
-            
     return rev, ball_idx, avoid_idx, base_pos_idx
 
 def get_names_from_bin(bin_path):
@@ -94,7 +101,7 @@ def unpack_bin(bin_path, exe_blocks, category, start_idx):
         n_bin = len(file_data) // 4
         block_idx = start_idx + (i * 14)
         var_names = exe_blocks[block_idx] if block_idx < len(exe_blocks) else []
-        
+
         if name == "playStyle":
             unpack_to_file(os.path.join(output_dir, name + ".txt"), file_data, var_names, len(var_names), n_bin, name)
             recipe_dir = os.path.join(output_dir, "playStyle_recipes")
@@ -103,7 +110,8 @@ def unpack_bin(bin_path, exe_blocks, category, start_idx):
                 s_ptr = struct.unpack('<i', file_data[sid*4 : sid*4+4])[0]
                 if 156 < s_ptr < len(file_data) - 88:
                     recipe_name = STYLE_NAMES.get(sid, f"Style_{sid}")
-                    with open(os.path.join(recipe_dir, f"{recipe_name}.txt"), 'w') as rf:
+                    recipe_path = os.path.join(recipe_dir, f"{recipe_name}.txt")
+                    with open(recipe_path, 'w') as rf:
                         rf.write(f"// --- RECIPE FOR {recipe_name} ---\n")
                         sub_ptrs = struct.unpack('<' + 'i'*22, file_data[s_ptr : s_ptr + 88])
                         for pid, pval in enumerate(sub_ptrs):
@@ -111,11 +119,8 @@ def unpack_bin(bin_path, exe_blocks, category, start_idx):
                             rf.write(f"{pval} // Pointer to {target_file} Template\n")
                             if 0 < pval < len(file_data) - 80:
                                 t_data = file_data[pval : pval + 80]
-                                t_dir = os.path.join(recipe_dir, recipe_name)
-                                os.makedirs(t_dir, exist_ok=True)
-                                # Player templates are based on block 5645
-                                t_vars = exe_blocks[5645 + (pid * 14)] if (5645 + (pid * 14)) < len(exe_blocks) else []
-                                unpack_to_file(os.path.join(t_dir, f"{target_file}.txt"), t_data, t_vars, len(t_vars), 20, target_file)
+                                t_vars = exe_blocks[start_idx + (pid * 14)] if (start_idx + (pid * 14)) < len(exe_blocks) else []
+                                unpack_to_file(os.path.join(recipe_dir, recipe_name, f"{target_file}.txt"), t_data, t_vars, len(t_vars), 20, target_file)
             continue
         unpack_to_file(os.path.join(output_dir, name + ".txt"), file_data, var_names, len(var_names), n_bin, name)
 
@@ -124,17 +129,15 @@ def unpack_to_file(output_path, file_data, var_names, n_exe, n_bin, name):
     with open(output_path, 'w') as f:
         bin_ptr = 0; name_ptr = 0
         file_packing = PACKING_MAP.get(name, {})
-        n_vars_available = len(var_names)
+        n_vars = len(var_names)
         while bin_ptr < n_bin:
-            # Difficulty array logic (32 vars x 9 levels)
-            if name == "cpuLevel" and n_vars_available == 32:
+            if name == "cpuLevel" and n_vars == 32:
                 f.write(f"{struct.unpack('<i', file_data[bin_ptr*4:(bin_ptr+1)*4])[0]} //{var_names[bin_ptr % 32]}[{bin_ptr // 32}]\n")
                 bin_ptr += 1; continue
-            
             if bin_ptr > 0 and n_exe > 1 and bin_ptr % n_exe == 0:
                 f.write(f"\n// --- SHADOW ARRAY INSTANCE {bin_ptr // n_exe} ---\n")
                 name_ptr = 0
-            if name_ptr < n_vars_available:
+            if name_ptr < n_vars:
                 cur_name = var_names[name_ptr]
                 chunk = file_data[bin_ptr*4 : (bin_ptr+1)*4]
                 ival = struct.unpack('<i', chunk)[0]; fval = struct.unpack('<f', chunk)[0]
@@ -144,22 +147,12 @@ def unpack_to_file(output_path, file_data, var_names, n_exe, n_bin, name):
                     f.write(f"0.0 //HEX 0x{chunk.hex()}, contains {', '.join(p_vars)}, NULL\n")
                     name_ptr += num_to_pack; bin_ptr += 1
                 else:
-                    if ival == 0: val_str = "0"
-                    elif abs(ival) < 100000 and abs(fval) % 1.0 < 0.00001: val_str = str(ival)
-                    elif 0.0001 < abs(fval) < 1000000:
-                        val_str = f"{fval:.6f}".rstrip('0')
-                        if val_str.endswith('.'): val_str += '0'
-                    else: val_str = str(ival)
-                    f.write(f"{val_str} //{cur_name}\n")
+                    f.write(f"{format_val(ival, fval)} //{cur_name}\n")
                     bin_ptr += 1; name_ptr += 1
             else:
                 chunk = file_data[bin_ptr*4 : (bin_ptr+1)*4]
                 ival = struct.unpack('<i', chunk)[0]; fval = struct.unpack('<f', chunk)[0]
-                if abs(ival) < 100000 and (fval == 0.0 or ival != 0): val_str = str(ival)
-                else:
-                    val_str = f"{fval:.6f}".rstrip('0')
-                    if val_str.endswith('.'): val_str += '0'
-                f.write(f"{val_str} //UNKNOWN_{bin_ptr}\n")
+                f.write(f"{format_val(ival, fval)} //UNKNOWN_{bin_ptr}\n")
                 bin_ptr += 1
 
 def repack_bin(bin_path, input_dir):
@@ -169,7 +162,6 @@ def repack_bin(bin_path, input_dir):
     data_start_offset = vals[1]
     new_data_sections = []
     new_lengths = []
-    print(f"Repacking {bin_path}...")
     for name in names:
         txt_path = os.path.join(input_dir, name + ".txt")
         if not os.path.exists(txt_path):
@@ -202,18 +194,9 @@ def main():
     import sys
     if len(sys.argv) < 2: return
     mode = sys.argv[1].lower()
-    
-    # Try to find EXE in current or parent directory
-    exe_path = 'PES2015.exe'
-    if not os.path.exists(exe_path):
-        exe_path = '../PES2015.exe'
-
+    exe_path = 'PES2015.exe' if os.path.exists('PES2015.exe') else '../PES2015.exe'
     if mode == "unpack":
         blocks, b_idx, a_idx, t_idx = extract_blocks_from_exe(exe_path)
-        if not blocks:
-            print(f"Error: {exe_path} not found.")
-            return
-        print(f"Indices: Match={b_idx}, Player={a_idx}, Team={t_idx}")
         unpack_bin('bins/common/match/constant/constant_match.bin', blocks, 'match', b_idx)
         unpack_bin('bins/common/match/constant/constant_player.bin', blocks, 'player', a_idx)
         unpack_bin('bins/common/match/constant/constant_team.bin', blocks, 'team', t_idx)

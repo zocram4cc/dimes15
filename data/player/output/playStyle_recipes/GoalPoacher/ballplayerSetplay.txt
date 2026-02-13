@@ -1,10 +1,10 @@
-0 //UNKNOWN_0
-0 //UNKNOWN_1
-0 //UNKNOWN_2
-0 //UNKNOWN_3
-0 //UNKNOWN_4
-0 //UNKNOWN_5
-0 //UNKNOWN_6
+0.0 //HEX 0x00000000, contains FreekickShoot, range_frontZ, FreekickShoot, range_max, FreekickShoot, NULL
+0 //range_middle
+0.0 //HEX 0x00000000, contains FreekickShoot, range_short, FreekickShoot, range_width, Throwin, NULL
+0 //range_long
+0.0 //HEX 0x00000000, contains Throwin, range_min, Throwin, NULL
+0 //range_short
+0 //waitTimerMin
 0 //UNKNOWN_7
 0 //UNKNOWN_8
 0 //UNKNOWN_9
@@ -15,6 +15,8 @@
 0 //UNKNOWN_14
 0 //UNKNOWN_15
 0 //UNKNOWN_16
-0 //UNKNOWN_17
-0 //UNKNOWN_18
-0 //UNKNOWN_19
+
+// --- SHADOW ARRAY INSTANCE 1 ---
+0.0 //HEX 0x00000000, contains FreekickShoot, range_frontZ, FreekickShoot, range_max, FreekickShoot, NULL
+0 //range_middle
+0.0 //HEX 0x00000000, contains FreekickShoot, range_short, FreekickShoot, range_width, Throwin, NULL

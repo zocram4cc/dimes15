@@ -31,6 +31,8 @@
 8.0 //limitDistX_MfLine
 70.0 //mfLimitRate
 5.0 //minCoverDist
-0 //UNKNOWN_33
-0 //UNKNOWN_34
-0 //UNKNOWN_35
+
+// --- SHADOW ARRAY INSTANCE 1 ---
+0 //adjustAngleOneSideCutRev
+0 //adjustAngleRate
+0 //adjustCorrectDist

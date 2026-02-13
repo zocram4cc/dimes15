@@ -165,7 +165,7 @@
 10.0 //project1vs1
 -5.0 //tackle
 0 //reactionStartFrame
-16777216 //project1vs1
+0.0 //project1vs1
 2.0 //trapLoss
 10.0 //project1vs1
 0.0 //HEX 0x00002042, contains waitTimer, ballAngleSub, project1vs1, waitTimer, distMax, project1vs1, waitTimer, distMin, project1vs1, waitTimer, NULL
@@ -287,7 +287,7 @@
 3.0 //stopConcept
 5.0 //UNKNOWN_287
 3.0 //UNKNOWN_288
-0.0 //UNKNOWN_289
+0 //UNKNOWN_289
 6.0 //UNKNOWN_290
 1 //UNKNOWN_291
 20.0 //UNKNOWN_292
@@ -297,7 +297,7 @@
 60.0 //UNKNOWN_296
 2.0 //UNKNOWN_297
 6.0 //UNKNOWN_298
-0.0 //UNKNOWN_299
+0 //UNKNOWN_299
 0 //UNKNOWN_300
 0 //UNKNOWN_301
 0 //UNKNOWN_302
